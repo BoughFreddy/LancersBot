@@ -26,10 +26,8 @@ load_dotenv()
 
 # ---------------------------------------------------------------- config ----
 SEARCH_URLS = [
-    "https://www.lancers.jp/work/search/system?open=1&type%5B%5D=project"
-    "&work_rank%5B%5D=0&work_rank%5B%5D=1&work_rank%5B%5D=2&work_rank%5B%5D=3",
-    "https://www.lancers.jp/work/search/system/development?open=1&type%5B%5D=project"
-    "&work_rank%5B%5D=0&work_rank%5B%5D=1&work_rank%5B%5D=2&work_rank%5B%5D=3",
+    "https://www.lancers.jp/work/search/system?open=1&type%5B%5D=project&work_rank%5B%5D=0&work_rank%5B%5D=1&work_rank%5B%5D=2&work_rank%5B%5D=3",
+    "https://www.lancers.jp/work/search/web?open=1&type%5B%5D=project&work_rank%5B%5D=0&work_rank%5B%5D=1&work_rank%5B%5D=2&work_rank%5B%5D=3",
 ]
 
 BOT_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN", "").strip()
